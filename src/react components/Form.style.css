@@ -1,0 +1,21 @@
+form{
+    margin: 3rem;
+}
+
+form input[name="city"],
+form input[name="Country"]{
+    background-color: transparent;
+    color:aqua;
+    border-bottom: 2px solid whitesmoke;
+    border-radius: 0;
+    border: 0;
+}
+
+form input:focus{
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+form input::-webkit-input-placeholder{
+    color: aqua !important;
+}
